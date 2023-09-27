@@ -1,0 +1,119 @@
+ header{
+    background-color: rgb(236, 240, 243);
+ }
+ body{
+    font-family: "Playfair Display", serif;
+ }
+ img{
+    max-width: 100%;
+    height: auto;
+ }
+
+.nav-item a{
+    color: rgb(118, 116, 116);
+    font-size: 18px;
+    transition: all 0.3s;
+    margin-left: 50px;
+    text-transform: uppercase;
+    
+}
+.nav-item a:hover{
+    color: rgb(18, 18, 18);
+}
+.navbar-brand{
+    color: Black;
+    text-transform: uppercase;
+    
+    font-family: "Incosolata", monospace;
+    font-size: 30px;;
+}
+.colorbutton{
+    background-color: rgb(191, 217, 222);
+}
+
+.nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #ccc;
+    height: 1px;
+    transform: scale(0);
+    transition: all 0.3s;
+}
+.nav-item a:hover::after{
+    transform: scale(1);
+} 
+.slide{
+    margin-top: 100px;
+}
+.category{
+    color: rgb(118, 116, 116);
+    text-transform: uppercase;
+}
+.category-two a{
+    color: rgb(168, 176, 182);
+    text-decoration: none;
+}
+.comment{
+    color: rgb(118, 116, 116);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.info{
+    margin-top: 25px;;
+}
+.information{
+    font-size: 19px;
+    
+}
+.grid-posts{
+    margin-top: 100px;;
+}
+.grid-posts .card{
+    border:0;
+    margin-bottom:  100px;
+}
+.grid-posts .card-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+.grid-posts .card-img-top{
+    max-height: 370px;
+    border-radius: 0;
+}
+.after-posts{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.after-posts button{
+    border-radius: 0;
+    font-size: 20px;
+}
+.p-2 img{
+    width: 20px;
+    height: 20px;;
+}
+.p-2 a, span{
+    text-decoration: none;
+    
+}
+
+footer{
+    background-color:rgb(236, 240, 243);
+    height: 70px ;
+    
+}
+.lol{
+    margin-right: 30px;
+    padding-left: 50px;
+    color: rgb(118, 116, 116);
+    transition: all 0.3s;
+    
+}
+.lol:hover{
+    color: black;
+}
+.sec{
+    padding-right: 10px;
+    margin-right: 9px;
+}
